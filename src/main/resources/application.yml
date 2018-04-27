@@ -1,0 +1,5 @@
+server:
+  port: ${SERVER_PORT:10000}
+
+logging:
+    config: classpath:logback.xml
